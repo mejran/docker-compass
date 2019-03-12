@@ -1,6 +1,6 @@
 # compass image
 # runs compass within a container
-FROM ubuntu:14.04
+FROM ubuntu:18.04
 MAINTAINER François Zaninotto <francois+docker@marmelab.com>
 
 ENV HOME /root
