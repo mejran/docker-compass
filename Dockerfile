@@ -8,7 +8,7 @@ ENV HOME /root
 RUN apt-get update -qq
 
 # install ruby
-RUN apt-get install -y -qq ruby-dev libffi-dev make ssh rsync
+RUN apt-get install -y -qq ruby-dev libffi-dev libtool make ssh rsync 
 
 # install compass
 RUN gem install --no-rdoc --no-ri compass
